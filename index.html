@@ -60,8 +60,26 @@
                             <use href="./images/sprite.svg#vector"></use>
                         </svg>
                     </button>
+                    <form method="POST" class="contact-form">
+                            <label>
+                                Имя
+                            <input type="text" class="contact-form-input" name="user_name"required>
+
+                            </label>
+                            <label>
+                                Телефон
+                                <input type="tel" class="contact-form-input" name="user_phone"required>
+                            </label>
+                            <label>
+                                Почта
+                            <input type="email" class="contact-form-input" name="user_email" required>
+                            </label>
+                        <textarea class="user_message" name="user_message" placeholder="Введите текст"></textarea>
+                        <button class="Submit" type="submit">Отправить</button>
+                    </form>
                 </div>
             </div>
+
         </div>
     </section>
 
